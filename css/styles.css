@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{ background-color: black;
 
 }
@@ -6,7 +10,7 @@ h1{
     sans-serif; 400; 
      font-size: 60px;
      text-align: center;
-    color:black;
+    color: whitesmoke;
 
 }
 h2{
@@ -25,6 +29,7 @@ ul{
 }
 
 button{
+    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color;
     padding: 5px;
@@ -36,10 +41,36 @@ button{
 .section{
 
     background-image:url("GRADIENT.jpg");
+    background-size: cover;
     height: 200px;
     flex: 1 1 auto;
     padding: 5px 0px 5px 0px;
 }
+.container{
+    max-width:max-content
+    width:auto;
+    margin:auto;
+    padding:40px 0;
+}
+.title{
+    margin-bottom: 2rem;
+}
+.typo-gallery{
+    display: flex;
+    gap: 20px;
+    
+}
+.row{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.photo img{
+    width: 450px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
 .section1 {
     background-color: #669966;
     height: 100px;
@@ -49,5 +80,26 @@ button{
     flex-direction: row;
     align-items: center;
     padding: 5px;
-
 }
+.section2{
+    background-color: #669966;
+    height: 100px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+.section3{
+    background-color: #669966;
+    height: 100px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
