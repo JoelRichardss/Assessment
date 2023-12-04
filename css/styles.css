@@ -1,5 +1,34 @@
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: pink;
-    font-size: large;
+body{ background-color: black;
+
+}
+h1{
+    font-family: 'Zilla Slab', serif; Verdana, Geneva, Tahoma,
+    sans-serif; 400; 
+     font-size: 60px;
+     text-align: center;
+    color:#669966;
+}
+h2{
+    color: whitesmoke;
+}
+ul{
+ list-style-type: none;
+ padding: 1px; 
+
+}
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 0px 1px;
+    border: 1px solid #669966;
+    border-radius: 0px;
+    background-color:whitesmoke;
 }
