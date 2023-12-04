@@ -6,7 +6,8 @@ h1{
     sans-serif; 400; 
      font-size: 60px;
      text-align: center;
-    color:#669966;
+    color:black;
+
 }
 h2{
     color: whitesmoke;
@@ -25,10 +26,28 @@ ul{
 
 button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
+    color;
     padding: 5px;
     margin: 0px 1px;
     border: 1px solid #669966;
     border-radius: 0px;
-    background-color:whitesmoke;
+    background-color:darkgray;
+}
+.section{
+
+    background-image:url("GRADIENT.jpg");
+    height: 200px;
+    flex: 1 1 auto;
+    padding: 5px 0px 5px 0px;
+}
+.section1 {
+    background-color: #669966;
+    height: 100px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+
 }
