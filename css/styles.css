@@ -5,9 +5,13 @@
 body{ background-color: black;
 
 }
+main{
+    display: flex;
+    flex-wrap:wrap;
+}
 h1{
-    font-family: 'Zilla Slab', serif; Verdana, Geneva, Tahoma,
-    sans-serif; 400; 
+    font-family: 'Zilla Slab', serif; Verdana Geneva, Tahoma,
+    sans-serif 400; 
      font-size: 60px;
      text-align: center;
      color: whitesmoke;
@@ -15,6 +19,8 @@ h1{
 }
 h2{
     color: whitesmoke;
+    align-items: center;
+    text-align:center;
 }
 p{
     color: whitesmoke;
@@ -34,12 +40,12 @@ ul{
 button{
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color;
     padding: 5px;
     margin: 0px 1px;
     border: 1px solid #669966;
     border-radius: 0px;
     background-color:darkgray;
+    font-size: 20px;
 }
 .section{
 
@@ -48,19 +54,28 @@ button{
     height: 200px;
     flex: 1 1 auto;
     padding: 5px 0px 5px 0px;
+    text-align: center;
+    align-content: center;
 }
+
+
 .container{
-    max-width:max-content
-    width:auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:max-content;
+    width: auto;
     margin:auto;
     padding:40px 0;
+    border: 1px salmon;
 }
 .title{
     margin-bottom: 2rem;
     padding: auto;
+    align-items:center;
 }
 .typo-gallery{
     display: flex;
+    flex-wrap: row;
     gap: 20px;
     
 }
@@ -73,34 +88,59 @@ button{
     width: 450px;
     border-radius: 5px;
     object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section1 {
     background-color: #669966;
     height: 80px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
     
     
 }
-.DOG{
-    display:row;
-    align-items: center;
-    border: 5px;
+.image {
+    display: flex;
+   display: contents;
+   height: 20px;
+   width: 20px;
+   padding: 20px;
+    border: 15px;
     margin: 10px;
-    width: 5px;
-    height: 20px;
+    
 }
 .section2{
     background-color: #669966;
     height: 80px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .section3{
     background-color: #669966;
     height: 80px;
+    display: flex;
+    flex-wrap:wrap
 }
 .section4{
     background-color: #669966;
     height: 80px;
+}
+h3{
+    color: whitesmoke;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#669966;
+    height: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    color: white;
+    padding: 10px 0px;
+    border: 1px solid purple;
 }
 
