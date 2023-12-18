@@ -103,13 +103,14 @@ button {
 
 
 .item {
-    width: 450px;
+    width: 400px;
 
 }
 
-h3{
+h3 {
     color: whitesmoke;
 }
+
 #carpImages {
     display: flex;
     flex-wrap: wrap;
@@ -148,7 +149,8 @@ h3{
     align-content: space-around;
     margin: 10px;
 }
-.screenshot{
+
+.screenshot {
     width: 450px;
     border-radius: 5px;
     object-fit: cover;
